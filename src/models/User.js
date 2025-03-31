@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const { generateToken } = require('../../../shared/utils/tokenUtils');
+const { generateToken } = require('shared//utils/tokenUtils');
 
 const UserSchema = new mongoose.Schema({
   name: { 

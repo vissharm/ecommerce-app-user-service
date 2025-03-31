@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const path = require('path');
 
 // Load shared environment variables first
-dotenv.config({ path: path.join(__dirname, '../../shared/.env') });
+dotenv.config({ path: path.join(__dirname, 'shared/.env') });
 // Load service-specific environment variables (can override shared ones if needed)
 dotenv.config();
 

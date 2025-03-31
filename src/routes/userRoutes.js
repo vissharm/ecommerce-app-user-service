@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
 const User = require('../models/User');
-const auth = require('../../../shared/middleware/auth');
+const auth = require('shared/middleware/auth');
 
 // Register new user
 router.post('/register', async (req, res) => {
